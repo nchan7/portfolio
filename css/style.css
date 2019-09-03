@@ -58,6 +58,10 @@ p {
   max-height: 100%;
 }
 
+.inline {
+  display: inline;
+}
+
 footer.page-footer {
   margin: 0;
 }
