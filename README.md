@@ -1,5 +1,6 @@
-# Portfolio
-## Nathan Chan
+# Nathan Chan
+## View my portfolio here: 
+### Made with HTML, CSS, JS, and Materialize
 
 
 
