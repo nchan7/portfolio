@@ -67,6 +67,11 @@ p {
   border-radius: 50%; 
 }
 
+.fab {
+  transform: scale(4);
+  margin: 50px;  
+}
+
 footer.page-footer {
   margin: 0;
 }
