@@ -1,5 +1,5 @@
 # Nathan Chan
-## View my portfolio here: 
+## View my portfolio here: https://nchan7.github.io/portfolio/
 ### Made with HTML, CSS, JS, and Materialize
 
 
