@@ -60,6 +60,11 @@ p {
 
 .inline {
   display: inline;
+  margin-right: 50px;
+}
+
+.profilepic {
+  border-radius: 50%; 
 }
 
 footer.page-footer {
