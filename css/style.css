@@ -63,10 +63,6 @@ p {
   margin-right: 50px;
 }
 
-.profilepic {
-  border-radius: 50%; 
-}
-
 .skills {
   display: inline;
   transform: scale(4);
@@ -75,13 +71,24 @@ p {
 
 .skills2 {
   display: inline-block; 
-  max-width: 50px;
-  max-height: 50px; 
-  margin-right: 20px; 
-  transform: translateY(18px);
-  background-color: white;
+  max-width: 55px;
+  max-height: 55px; 
+  margin: 0 10px; 
+  transform: translateY(22px);
+  fill: white;
 }
+
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 280px;
+  width: 280px;
+  transform: translateY(20px);
+  
+}
+
 
 footer.page-footer {
   margin: 0;
 }
+
