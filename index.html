@@ -14,21 +14,32 @@
 
 </head>
 <body>
-  <nav class="grey darken-3" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo white-text">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="#">Navbar Link</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="grey darken-3" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#top">
+          <img id="logo" src="./portfoliologo.png" alt="">
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="white-text" href="#projects">Projects</a></li>
+          <li><a class="white-text" href="#skills">Skills</a></li>
+          <li><a class="white-text" href="#about-me">About Me</a></li>
+          <li><a class="white-text" href="#resume">Resume</a></li>
+          <li><a class="white-text" href="#connect">Let's Connect</a></li>
+        </ul>
+        
+        <ul id="nav-mobile" class="sidenav">
+          <li><a class="white-text" href="#projects">Projects</a></li>
+          <li><a class="white-text" href="#skills">Skills</a></li>
+          <li><a class="white-text" href="#about-me">About Me</a></li>
+          <li><a class="white-text" href="#resume">Resume</a></li>
+          <li><a class="white-text" href="#connect">Let's Connect</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a class="white-text" href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container valign-wrapper">
+  <div id="index-banner top" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <h1 class="header center">Hello, I'm Nathan</h1>
@@ -43,7 +54,7 @@
     <div class="parallax"><img class="diablo-lake" src="diablolake.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-  <div class="container">
+  <div id="projects" class="container">
     <div class="section">
         <h2 class="header center grey-text text-darken-4">Projects</h2>
 
@@ -100,7 +111,7 @@
   </div>
 
 <!-- Skills Section -->
-  <div class="parallax-container valign-wrapper">
+  <div id="skills" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -123,7 +134,7 @@
     <div class="parallax"><img src="seattle.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
+  <div id="about-me" class="container">
     <div class="section">
 
       <div class="row">
@@ -140,7 +151,7 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="resume" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -153,7 +164,7 @@
   </div>
 
   <footer class="page-footer grey darken-3">
-    <div class="container">
+    <div id="connect" class="container">
       <div class="row">
         <div class="col s12">
           <h5 class="white-text inline">Let's Connect</h5>

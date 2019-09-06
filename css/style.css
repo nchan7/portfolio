@@ -87,6 +87,10 @@ img.rounded {
   
 }
 
+#logo {
+  margin-top: 15px; 
+}
+
 
 footer.page-footer {
   margin: 0;
