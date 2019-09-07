@@ -19,6 +19,10 @@ p {
   color: #26a69a;
 }
 
+#resume {
+  color: white; 
+}
+
 .parallax-container {
   /* min-height: 380px; */
   min-height: 100vh;
