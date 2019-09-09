@@ -82,6 +82,10 @@ p {
   fill: white;
 }
 
+.tech {
+  font-size: 12px; 
+}
+
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
