@@ -86,13 +86,16 @@ p {
   font-size: 12px; 
 }
 
+img.profile {
+  transform: translateX(-50px);
+}
+
 img.rounded {
   object-fit: cover;
+  transform: translateY(20px);
   border-radius: 50%;
   height: 280px;
-  width: 280px;
-  transform: translateY(20px);
-  
+  width: 290px;
 }
 
 #logo {
